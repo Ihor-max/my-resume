@@ -65,5 +65,53 @@
 }
 .body {
   font-family: "Acrom";
-  font-style: normal;
+  box-sizing: border-box;
+}
+.front-page {
+  width: 320px;
+  background-color: var(--c-dark);
+  padding: 30px 10px 55px 10px;
+  box-sizing: border-box;
+}
+.front-page-my-name {
+  font-size: 26px;
+  line-height: 31px;
+  text-transform: uppercase;
+  color: var(--c-accent);
+  text-align: center;
+}
+.front-page-profession {
+  font-size: 35px;
+  line-height: 42px;
+  text-transform: uppercase;
+  color: var(--c-light);
+  text-align: center;
+  text-transform: uppercase;
+}
+.front-page-description {
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: var(--c-light);
+}
+.navigation {
+  width: 100%;
+}
+.hire-me-btn {
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.05em;
+  color: var(--c-accent);
+  text-decoration: none;
+}
+.mobile-menu {
+  width: 30px;
+  height: 30px;
+  background-color: var(--c-accent);
+  display: block;
+}
+.mobile-menu i {
+  width: 10px;
+  color: var(--c-light);
 }
